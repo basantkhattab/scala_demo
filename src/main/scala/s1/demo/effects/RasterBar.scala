@@ -134,12 +134,6 @@ class RasterBar extends Effect(1000, 1000, "Raster Bar") {
       pic
     end makePic
 
-
-    // Effects can also receive information on mouse movements.
-    // When a mouse goes to ne coordinates this method gets called.
-
-    // We use it to draw still more circles at the mouse location
-
     // This effect will never end
     def next = false
     
