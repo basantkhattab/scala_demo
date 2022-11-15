@@ -32,7 +32,7 @@ import s1.demo.effects.*
 
 object Animate extends SimpleSwingApplication {
 
-  val allEffects: Buffer[Effect] = Buffer(BouncingBall(), Dissolve(), RasterBar(), Snakes(), RotatingCube())
+  val allEffects: Buffer[Effect] = Buffer(BouncingBall(), Dissolve(), RasterBar(), Snakes(), RotatingCube(), ParasDemo())
   val demo: Buffer[Effect] = Buffer(RotatingCube())
   val demoMusic: Option[String] = Some("sound/entropy.wav")
   val delay = 25
