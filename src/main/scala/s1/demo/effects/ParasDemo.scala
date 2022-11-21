@@ -8,6 +8,9 @@ import java.awt.Color.*
 import java.awt.{ BasicStroke, Color }
 import java.awt.image.BufferedImage
 
+//Ax+By+C=0
+//  =>
+//A(x-x0)+B(y-y0)=0
 var a = 1.0
 var b = 1.0
 
