@@ -33,12 +33,6 @@ class ParasDemo extends Effect(600, 600, "ParasDemo"):
   val yCentr = height / 2
 
 
-  var colorPointx = xCentr
-  var colorPointY = yCentr
-
-
-
-
   override def makePic(): BufferedImage =
     val pic = emptyImage
     val g = pic.graphics
