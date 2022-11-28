@@ -19,7 +19,7 @@ def rotateLine(t: Double) =
   a = a*math.cos(t) + b*math.sin(t)
   b = b*math.cos(t) - temp*math.sin(t)
 
-class ParasDemo extends Effect(600, 600, "ParasDemo"):
+class ParasDemo extends Effect(600, 600, "Aallot"):
 
   def positionOnLineHorizontal(x: Int, y: Int) = a*(x-xCentr)+b*(y-yCentr)
   def positionOnLineVertical(x: Int, y: Int) = -1*b*(x - xCentr) + a*(y-yCentr)

@@ -21,7 +21,7 @@ val baseLightPoint = Vector3D(RADIUS * cos(80.toRadians), RADIUS * cos(120.toRad
 val axis = Vector3D(RADIUS * cos(angleFromX) * cos(angleFromZ), RADIUS * sin(angleFromX) * cos(angleFromZ),
                     RADIUS * sin(angleFromZ)).normalize
 
-class ParasDemo2 extends Effect(600, 600, "ParasDemo2") :
+class ParasDemo2 extends Effect(600, 600, "Pallo") :
   var time = 0
   val xCentr = width / 2
   val yCentr = height / 2
@@ -34,6 +34,7 @@ class ParasDemo2 extends Effect(600, 600, "ParasDemo2") :
                              colorVector.x * axis.y - axis.x * colorVector.y).normalize
 
   def rotateColorVector(angle: Double) =
+    //Kvaternio
     val an = angle.toRadians
     val q0 = cos(an / 2)
     val q1 = sin(an / 2) * axis.x

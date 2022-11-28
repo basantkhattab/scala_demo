@@ -32,8 +32,8 @@ import s1.demo.effects.*
 
 object Animate extends SimpleSwingApplication {
 
-  val allEffects: Buffer[Effect] = Buffer(BouncingBall(), Dissolve(), RasterBar(), Snakes(), RotatingCube(), ParasDemo(), ParasDemo2())
-  val demo: Buffer[Effect] = Buffer(ParasDemo2())
+  val allEffects: Buffer[Effect] = Buffer(ParasDemo(), ParasDemo2())
+  val demo: Buffer[Effect] = Buffer(ParasDemo())
   val demoMusic: Option[String] = None
   val delay = 25
 
